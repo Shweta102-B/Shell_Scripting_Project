@@ -15,3 +15,5 @@ DATE=$(date +'%m-%d-%Y-%H-%M')
 
 #log the users Data in a file
 who | awk '{print $1,$3,$4,$5}' > users_login_date/Users_$DATE.txt
+
+
