@@ -14,7 +14,7 @@ sudo apt search $package_name
 }
 
 install(){
-echo"**************"
+echo "**************"
 echo "install package: $package_name"
 sudo apt install $package_name
 }
