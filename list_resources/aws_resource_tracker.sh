@@ -16,7 +16,7 @@
 
 # #list s3 buckets
    echo "Print the list of s3 buckets" 
-   aws s3 ls   >> resource.txt
+   aws s3 ls   > resource.txt
 #
 #  #list EC2 Instances
    echo "Print the list of ec2 Instances"
@@ -34,5 +34,5 @@
 #
    #list IAM users
    echo "IAM users"
-   aws iam list-users   >> resource.txt
+   aws iam list-users >> resource.txt
 
