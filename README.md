@@ -3,3 +3,4 @@ Key Points
 2.  Getting the list of AWS Resources and setting the crontab=Scheduler
 3.  To get the list of users and collabrorators for the repo.
 4.  Script to install packages using functions
+5.  Created a database backup file
